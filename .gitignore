@@ -1,0 +1,5 @@
+*.exe
+*.pdb
+*.lib
+*.vcxproj.user
+*.suo
