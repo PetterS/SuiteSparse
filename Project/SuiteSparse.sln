@@ -5,6 +5,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AMD", "AMD\AMD.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AMD_demo", "AMD_demo\AMD_demo.vcxproj", "{DA7443ED-8897-4452-81FC-581460970E55}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "COLAMD", "COLAMD\COLAMD.vcxproj", "{D460EEEB-30CE-4AF6-B3FA-AF2E08ADEF91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "COLAMD_example", "COLAMD_example\COLAMD_example.vcxproj", "{E763434D-DAD6-4F18-959D-4777A6746514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +31,18 @@ Global
 		{DA7443ED-8897-4452-81FC-581460970E55}.Release|Win32.ActiveCfg = Release|Win32
 		{DA7443ED-8897-4452-81FC-581460970E55}.Release|Win32.Build.0 = Release|Win32
 		{DA7443ED-8897-4452-81FC-581460970E55}.Release|x64.ActiveCfg = Release|x64
+		{D460EEEB-30CE-4AF6-B3FA-AF2E08ADEF91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D460EEEB-30CE-4AF6-B3FA-AF2E08ADEF91}.Debug|Win32.Build.0 = Debug|Win32
+		{D460EEEB-30CE-4AF6-B3FA-AF2E08ADEF91}.Debug|x64.ActiveCfg = Debug|Win32
+		{D460EEEB-30CE-4AF6-B3FA-AF2E08ADEF91}.Release|Win32.ActiveCfg = Release|Win32
+		{D460EEEB-30CE-4AF6-B3FA-AF2E08ADEF91}.Release|Win32.Build.0 = Release|Win32
+		{D460EEEB-30CE-4AF6-B3FA-AF2E08ADEF91}.Release|x64.ActiveCfg = Release|x64
+		{E763434D-DAD6-4F18-959D-4777A6746514}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E763434D-DAD6-4F18-959D-4777A6746514}.Debug|Win32.Build.0 = Debug|Win32
+		{E763434D-DAD6-4F18-959D-4777A6746514}.Debug|x64.ActiveCfg = Debug|Win32
+		{E763434D-DAD6-4F18-959D-4777A6746514}.Release|Win32.ActiveCfg = Release|Win32
+		{E763434D-DAD6-4F18-959D-4777A6746514}.Release|Win32.Build.0 = Release|Win32
+		{E763434D-DAD6-4F18-959D-4777A6746514}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
