@@ -4,7 +4,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <OutDir>$(SolutionDir)Demo</OutDir>
-    <LibraryPath>$(SolutionDir)$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\AMD\acml5.2.0\ifort64_mp\lib;$(SolutionDir)$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
     <IncludePath>../../AMD/Include;../../CAMD/Include;../../COLAMD/Include;../../CCOLAMD/Include;../../CHOLMOD/Include;../../SuiteSparse_config;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>

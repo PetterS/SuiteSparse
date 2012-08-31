@@ -127,13 +127,14 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>AMD.lib;CAMD.lib;CCOLAMD.lib;CHOLMOD.lib;COLAMD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libacml_mp_dll.lib;AMD.lib;CAMD.lib;CCOLAMD.lib;CHOLMOD.lib;COLAMD.lib;SuiteSparse_config.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

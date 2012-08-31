@@ -34,8 +34,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAMD", "CAMD\CAMD.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHOLMOD_demo", "CHOLMOD_demo\CHOLMOD_demo.vcxproj", "{E601CC6C-5010-4705-ABE2-B5C03F65F7FC}"
 	ProjectSection(ProjectDependencies) = postProject
+		{8FFC3D00-6165-4507-83C6-93476F49A1D1} = {8FFC3D00-6165-4507-83C6-93476F49A1D1}
 		{804C17F7-F0C8-4C24-B038-CD8820989DE2} = {804C17F7-F0C8-4C24-B038-CD8820989DE2}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuiteSparse_config", "SuiteSparse_config\SuiteSparse_config.vcxproj", "{8FFC3D00-6165-4507-83C6-93476F49A1D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +112,13 @@ Global
 		{E601CC6C-5010-4705-ABE2-B5C03F65F7FC}.Release|Win32.Build.0 = Release|Win32
 		{E601CC6C-5010-4705-ABE2-B5C03F65F7FC}.Release|x64.ActiveCfg = Release|x64
 		{E601CC6C-5010-4705-ABE2-B5C03F65F7FC}.Release|x64.Build.0 = Release|x64
+		{8FFC3D00-6165-4507-83C6-93476F49A1D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8FFC3D00-6165-4507-83C6-93476F49A1D1}.Debug|Win32.Build.0 = Debug|Win32
+		{8FFC3D00-6165-4507-83C6-93476F49A1D1}.Debug|x64.ActiveCfg = Debug|Win32
+		{8FFC3D00-6165-4507-83C6-93476F49A1D1}.Release|Win32.ActiveCfg = Release|Win32
+		{8FFC3D00-6165-4507-83C6-93476F49A1D1}.Release|Win32.Build.0 = Release|Win32
+		{8FFC3D00-6165-4507-83C6-93476F49A1D1}.Release|x64.ActiveCfg = Release|x64
+		{8FFC3D00-6165-4507-83C6-93476F49A1D1}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
