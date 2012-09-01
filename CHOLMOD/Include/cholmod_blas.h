@@ -15,6 +15,10 @@
 #ifndef CHOLMOD_BLAS_H
 #define CHOLMOD_BLAS_H
 
+#ifdef USE_ACML
+#include "cholmod_blas_acml.h"
+#else
+
 /* ========================================================================== */
 /* === Architecture ========================================================= */
 /* ========================================================================== */
@@ -452,4 +456,5 @@ void BLAS_ZGER (BLAS_INT *m, BLAS_INT *n, double *alpha,
     } \
 }
 
+#endif  // USE_ACML
 #endif
