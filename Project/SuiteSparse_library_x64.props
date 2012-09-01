@@ -3,7 +3,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>../../AMD/Include;../../CAMD/Include;../../COLAMD/Include;../../CCOLAMD/Include;../../CHOLMOD/Include;../../SuiteSparse_config;$(IncludePath)</IncludePath>
+    <IncludePath>C:\AMD\acml5.2.0\ifort64_mp\include;../../Windows;../../AMD/Include;../../CAMD/Include;../../COLAMD/Include;../../CCOLAMD/Include;../../CHOLMOD/Include;../../SuiteSparse_config;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
