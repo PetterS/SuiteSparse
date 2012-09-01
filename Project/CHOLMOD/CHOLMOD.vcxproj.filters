@@ -74,6 +74,9 @@
     <ClInclude Include="..\..\CHOLMOD\Include\cholmod_complexity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Windows\cholmod_blas_acml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\CHOLMOD\Cholesky\cholmod_spsolve.c">
