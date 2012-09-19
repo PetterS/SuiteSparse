@@ -10,7 +10,7 @@ This repository adds project files for Visual Studio 2010, making compilation of
 
 Currently, the project files build the following:
 
-* CHOLMOD (as a DLL linked to ACML)
+* CHOLMOD
 * AMD
 * CAMD
 * CCOLAMD
@@ -19,5 +19,4 @@ Currently, the project files build the following:
 ACML
 ----
 ACML - the AMD Core Math Library - is a very fast BLAS and LAPACK library that works
-well on Windows 64-bit. It can be obtained for free. This repository contains the necessary
-modifications to CHOLMOD for ACML.
+well on Windows 64-bit. It can be obtained for free. This repository contains the necessary modifications to CHOLMOD for ACML.
