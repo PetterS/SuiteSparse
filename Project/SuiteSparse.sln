@@ -41,6 +41,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHOLMOD", "CHOLMOD_shared\C
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHOLMOD_simple", "CHOLMOD_simple\CHOLMOD_simple.vcxproj", "{D9143E73-2DF7-4518-9147-3B93F2297C2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E94232F-0B65-41FA-B953-EF847C821190} = {2E94232F-0B65-41FA-B953-EF847C821190}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

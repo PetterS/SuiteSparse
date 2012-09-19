@@ -75,6 +75,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Demo\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -135,7 +136,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>libacml_mp_dll.lib;AMD.lib;CAMD.lib;CCOLAMD.lib;COLAMD.lib;SuiteSparse_config.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <ImportLibrary>$(TargetDir)$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(SolutionDir)$(Platform)\$(Configuration)\$(TargetName).lib</ImportLibrary>
       <ModuleDefinitionFile>CHOLMOD.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
