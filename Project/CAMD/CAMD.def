@@ -1,0 +1,13 @@
+EXPORTS
+	camd_order
+	camd_2
+	camd_valid
+	camd_cvalid
+	camd_malloc
+	camd_free
+	camd_realloc
+	camd_calloc
+	camd_printf
+	camd_defaults
+	camd_control
+	camd_info
