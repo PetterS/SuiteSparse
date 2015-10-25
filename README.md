@@ -1,3 +1,5 @@
+**NOTE**: It was a long time since I updated this project. However, there are many forks here on Github, which may be useful. If I were to update this project again, I would add CMake files instead of Visual Studio project files.
+
 SuiteSparse
 ===========
 SuiteSparse:  A Suite of Sparse matrix packages at http://www.suitesparse.com
